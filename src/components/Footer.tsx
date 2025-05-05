@@ -22,19 +22,19 @@ const Footer = () => {
             <h3 className="font-bold text-gray-800 mb-4">Categories</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/categories/technology" className="text-gray-600 hover:text-primary transition-colors">
+                <a href="#" className="text-gray-600 hover:text-primary transition-colors">
                   Technology
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="/categories/design" className="text-gray-600 hover:text-primary transition-colors">
+                <a href="#" className="text-gray-600 hover:text-primary transition-colors">
                   Design
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="/categories/development" className="text-gray-600 hover:text-primary transition-colors">
+                <a href="#" className="text-gray-600 hover:text-primary transition-colors">
                   Development
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
@@ -48,19 +48,19 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="text-gray-600 hover:text-primary transition-colors">
+                <a href="#" className="text-gray-600 hover:text-primary transition-colors">
                   Contact
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="/privacy" className="text-gray-600 hover:text-primary transition-colors">
+                <a href="#" className="text-gray-600 hover:text-primary transition-colors">
                   Privacy Policy
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="/terms" className="text-gray-600 hover:text-primary transition-colors">
+                <a href="#" className="text-gray-600 hover:text-primary transition-colors">
                   Terms of Service
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
